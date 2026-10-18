@@ -23,3 +23,7 @@ The form posts to FormSubmit for `aurexmed@gmail.com`. The mailbox owner must co
 ## Deployment
 
 The existing `.github/workflows/deploy.yml` publishes the repository to GitHub Pages on pushes to `main`. In repository Settings → Pages, set the source to GitHub Actions. No build step is required.
+
+## U-100 product listing
+
+`u100-insulin-syringes.html` contains the product gallery, specifications, reported testing results, and embedded PDF. The Amazon button intentionally links to the Amazon homepage until the product listing URL is available. Bulk-pricing links preselect U100 in the home-page quote form. Replace the labeled illustration with supplied product photography when available. The unmodified source PDF is stored in `assets/documents/`.

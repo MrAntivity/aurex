@@ -1,3 +1,4 @@
+if (new URLSearchParams(window.location.search).get('product') === 'u100') document.getElementById('product-interest').value = 'U100 insulin syringe needles';
 document.getElementById('year').textContent = new Date().getFullYear();
 const menuButton = document.querySelector('.menu-toggle');
 const menu = document.querySelector('.main-nav');
