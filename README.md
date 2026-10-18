@@ -1,22 +1,23 @@
-# Aurex Medical Website
+# AUREX Medical
 
-Professional, minimal blue-themed static website for **Aurex Medical** with:
+Responsive static medical-product website. HTML, CSS, and vanilla JavaScript; no build dependencies.
 
-- Product/industry credibility sections
-- Request a Quote / Demo form
-- GitHub Pages deployment workflow
+## Preview
 
-## Email forwarding setup
+Run `python3 -m http.server 8080` from this directory and open `http://localhost:8080`.
 
-The form uses [FormSubmit](https://formsubmit.co/) to forward submissions to:
+## Features
 
-- `aurexmed@gmail.com`
+- Product categories and product-specific quote selection
+- Scroll-triggered section reveals, scroll-linked illustration movement, and reading progress
+- Reduced-motion preference support, keyboard navigation, and a mobile menu
+- Quote-only inquiry form; no account or portal functionality
+- Original decorative product illustrations (not product specifications)
 
-On first form submission, FormSubmit sends an activation email to confirm forwarding.
+## Quote form
 
-## Deploy via GitHub Pages
+The form posts to FormSubmit for `aurexmed@gmail.com`. The mailbox owner must complete FormSubmit's activation if it has not already been activated. CAPTCHA and a honeypot help reduce spam. Validate delivery with a real, authorized inquiry before relying on the inbox workflow. No form submission is sent by local UI checks.
 
-1. Push this repo to GitHub.
-2. Ensure your default branch is `main` (or update `.github/workflows/deploy.yml`).
-3. In GitHub, go to **Settings → Pages** and set **Source** to **GitHub Actions**.
-4. Push changes to `main`; the workflow will publish the site.
+## Deployment
+
+The existing `.github/workflows/deploy.yml` publishes the repository to GitHub Pages on pushes to `main`. In repository Settings → Pages, set the source to GitHub Actions. No build step is required.
