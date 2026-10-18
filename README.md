@@ -9,7 +9,9 @@ Run `python3 -m http.server 8080` from this directory and open `http://localhost
 ## Features
 
 - Product categories and product-specific quote selection
+- Orange, white, and black identity using the supplied AUREX logo
 - Scroll-triggered section reveals, scroll-linked illustration movement, and reading progress
+- A pinned brand section with scroll-controlled logo movement, scale, rotation, and sliding typography
 - Reduced-motion preference support, keyboard navigation, and a mobile menu
 - Quote-only inquiry form; no account or portal functionality
 - Original decorative product illustrations (not product specifications)
