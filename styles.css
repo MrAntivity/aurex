@@ -30,8 +30,8 @@
 @media(prefers-reduced-motion:reduce){.brand-story{height:auto;min-height:0}.story-sticky{position:relative;top:auto;height:auto;min-height:650px;padding:60px 0}.story-symbol,.story-orbit,.story-word{transform:none!important}.motion-enabled .reveal{transform:none}.story-scroll{display:none}}
 
 /* Keep the supplied artwork intact; frame its mark clearly at navigation size. */
-.logo-crop{display:block;position:relative;width:49px;height:49px;overflow:hidden;border-radius:3px;flex-shrink:0}.logo-crop .brand-logo{position:absolute;width:108px;height:108px;max-width:none;left:50%;top:50%;transform:translate(-50%,-50%);border-radius:0}.standard-mark{overflow:hidden;border-radius:4px}.standard-mark img{width:220%;height:220%;max-width:none;position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);border-radius:0}
-@media(max-width:800px){.logo-crop{width:40px;height:40px}.logo-crop .brand-logo{width:88px;height:88px}}
+.logo-crop{display:block;position:relative;width:49px;height:49px;overflow:hidden;border-radius:3px;flex-shrink:0}.logo-crop .brand-logo{position:absolute;width:100%;height:100%;object-fit:contain;max-width:none;left:50%;top:50%;transform:translate(-50%,-50%);border-radius:0}.standard-mark{overflow:hidden;border-radius:4px}.standard-mark img{width:100%;height:100%;object-fit:contain;max-width:none;position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);border-radius:0}
+@media(max-width:800px){.logo-crop{width:40px;height:40px}.logo-crop .brand-logo{width:100%;height:100%}}
 
 .lab-note{margin:-18px 0 35px;padding:14px 0 14px 16px;border-left:2px solid var(--orange);max-width:790px;font-size:12px;line-height:1.8;color:var(--muted)}.lab-note strong{font-weight:600;color:var(--ink)}
 @media(max-width:600px){.lab-note{margin:-5px 0 28px;font-size:11px;padding-left:12px}}
