@@ -26,4 +26,4 @@ The existing `.github/workflows/deploy.yml` publishes the repository to GitHub P
 
 ## U-100 product listing
 
-`u100-insulin-syringes.html` contains the product gallery, specifications, reported testing results, and embedded PDF. The Amazon button intentionally links to the Amazon homepage until the product listing URL is available. Bulk-pricing links preselect U100 in the home-page quote form. Replace the labeled illustration with supplied product photography when available. The unmodified source PDF is stored in `assets/documents/`.
+`u100-insulin-syringes.html` contains the product gallery, specifications, reported testing results, and embedded PDF. The Amazon button intentionally links to the Amazon homepage until the product listing URL is available. Bulk-pricing links preselect U100 in the home-page quote form. The primary gallery image is the supplied product image in `assets/u100-product.png`. The unmodified source PDF is stored in `assets/documents/`.
